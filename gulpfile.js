@@ -142,7 +142,8 @@ if (osvar === 'osx64') {
     osvar = 'linux-ia32.zip';
 }
 //console.log(osvar);
-const ffmpegurl = 'https://github.com/iteufel/nwjs-ffmpeg-prebuilt/releases/download/' + nwVersion + '/' + nwVersion + '-' + osvar;
+const ffmpegVersion = '0.35.3';
+const ffmpegurl = 'https://github.com/iteufel/nwjs-ffmpeg-prebuilt/releases/download/' + ffmpegVersion + '/' + ffmpegVersion + '-' + osvar;
 
 /*************
  * gulp tasks *
